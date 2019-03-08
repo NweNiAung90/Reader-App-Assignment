@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activites.MainActivity">
+    tools:context=".activities.MainActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -16,6 +16,7 @@
             android:layout_width="match_parent"
             android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
+            android:backgroundTint="@color/white_full"
             app:navigationIcon="@drawable/ic_menu_black_24dp"
             app:popupTheme="@style/AppTheme.PopupOverlay">
 
@@ -31,4 +32,36 @@
 
     </android.support.design.widget.AppBarLayout>
 
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <fragment
+                android:id="@+id/frag_featured"
+                android:name="com.padcmyanmar.padc7.nna.reader.app.assignment.fragments.FeaturedFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_featured_height"
+                android:layout_marginTop="@dimen/margin_medium" />
+
+            <fragment
+                android:id="@+id/frag_popular"
+                android:name="com.padcmyanmar.padc7.nna.reader.app.assignment.fragments.PopularFragment"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/fragment_height"
+                android:layout_below="@id/frag_featured" />
+
+            <fragment
+                android:id="@+id/frag_new_arrivals"
+                android:name="com.padcmyanmar.padc7.nna.reader.app.assignment.fragments.NewArrivalsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_medium_2"
+                android:layout_below="@id/frag_popular"/>
+        </RelativeLayout>
+    </android.support.v4.widget.NestedScrollView>
 </android.support.design.widget.CoordinatorLayout>

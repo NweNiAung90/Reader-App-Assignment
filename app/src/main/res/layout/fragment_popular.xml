@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_popular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/frag_featured"
+        android:layout_marginLeft="@dimen/margin_medium"
+        android:layout_marginTop="@dimen/margin_medium"
+        android:text="@string/popular"
+        android:textSize="@dimen/text_regular_2x"
+        android:textColor="@color/primary_text" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_popular"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/tv_popular"
+        android:layout_height="wrap_content"/>
+</RelativeLayout>

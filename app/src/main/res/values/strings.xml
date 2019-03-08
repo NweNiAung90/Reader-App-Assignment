@@ -2,4 +2,12 @@
     <string name="app_name">Reader-App-Assignment</string>
     <string name="action_settings">Settings</string>
     <string name="toolbar_title">မဟော်သဓာ</string>
+    <string name="popular">လူကြိုက်များသော</string>
+    <string name="new_arrival">အသစ်ထွက်</string>
+    <string name="new_arrival_title">အနာဂတ် ကုမ္ပဏီ လီမိတက် (မင်းလူ)</string>
+    <string name="new_arrival_description">တစ်နှစ်တာအတွင်း အောင်မြင်ဆုံး ကုမ္ပဏီဆုကို ၃နှစ်ဆက်တိုက် ရရှိခဲ့ပြီးဖြစ်ပါသည်။ နောက်နှစ်တွေလဲ ဆက်ပြီးရဖို့ အလားအလာ ကောင်းနေသည်။ အမြတ်ရာခိုင်နှုန်းကလဲ တစ်ရာရာခိုင်နှုန်း</string>
+    <string name="statistic1">ဖတ်ရှုသူ</string>
+    <string name="statistic_count1">43ဦး</string>
+    <string name="statistic2">ပေးပို့သူ</string>
+    <string name="statistic_count2">21ဦး</string>
 </resources>

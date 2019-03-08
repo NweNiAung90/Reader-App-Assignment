@@ -1,17 +1,11 @@
-package com.padcmyanmar.padc7.nna.reader.app.assignment.activites;
+package com.padcmyanmar.padc7.nna.reader.app.assignment.activities;
 
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
-import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
 
 import com.padcmyanmar.padc7.nna.reader.app.assignment.R;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseFragmentActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

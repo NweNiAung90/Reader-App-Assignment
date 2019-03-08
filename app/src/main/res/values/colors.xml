@@ -11,5 +11,5 @@
 
     <color name="black_full">#000000</color>
     <color name="white_full">#FFFFFF</color>
-
+    <color name="light_grey">#D1D1D1</color>
 </resources>
