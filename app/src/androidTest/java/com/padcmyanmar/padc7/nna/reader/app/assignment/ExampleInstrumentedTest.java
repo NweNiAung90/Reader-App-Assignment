@@ -1,4 +1,4 @@
-package com.padcmyanmar.padc7.nna.implicit.intent.reader.app.assignment;
+package com.padcmyanmar.padc7.nna.reader.app.assignment;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.padcmyanmar.padc7.nna.implicit.intent.reader.app.assignment", appContext.getPackageName());
+        assertEquals("com.padcmyanmar.padc7.nna.reader.app.assignment", appContext.getPackageName());
     }
 }

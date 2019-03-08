@@ -1,4 +1,4 @@
-package com.padcmyanmar.padc7.nna.implicit.intent.reader.app.assignment;
+package com.padcmyanmar.padc7.nna.reader.app.assignment;
 
 import org.junit.Test;
 
